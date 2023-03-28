@@ -97,6 +97,62 @@ Cells(1, 1).Value = "Hola Excel-Avanzado.com"
 Cells(1, 1).Font.Bold = True
 end sub
 
+Método Workbooks.Add (Excel)
+
+'es un argumento es una constante
+ xlWBATWorksheet.
+
+
+.copy
+
+'se copia el rango y se pega en otra hoja
+Worksheets("Sheet1").Range("A1:D4").Copy _ 
+    destination:=Worksheets("Sheet2").Range("E5")
+
+
+inicio
+abrir
+copiar la ruta de acceso
+C:\Users\USUARIO\Desktop\practica\ejercicio\outlook\enviar correos.xlsm
+
+se genera una copia 
+pero no esta guardada
+se genera un archivo en el outlook
+
+Paste Special in VBA
+copiar de una hoja hacia otra
+
+ Sheets("hoja3").Range("A1:D14").copy
+ Sheets("hoja2").Range("A1:D14").PasteSpecial xlPasteValuesAndNumberFormats
+ 
+ 
+ PasteSpecial Paste:=8
+
+'ingresa un valor
+
+ Sub Cells_Example()
+  Cells(1, 1).Value = "Hello"
+ End Sub
+
+(1,1) = fila 1 , columna 1
+
+'va sumando de a 1 por las filas a
+
+Sub loopcell()
+ Dim i As Integer
+   For i = 1 To 10
+     Cells(i, 1).Value = i
+     Next i
+End Sub
+
+https://www.wallstreetmojo.com/vba-cells/
+
+
+ 
+ 
+ 
+ 
+ 
 
 
 
