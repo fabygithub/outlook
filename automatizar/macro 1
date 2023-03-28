@@ -25,4 +25,69 @@ enviar un correo con un archivo adjunto
 Create an Email with Attachment using VBA and Outlook
 
 
+generar una hoja de consultas
+
+
+https://www.rondebruin.nl/win/s1/outlook/mail.htm
+
+generate pdf report
+excel vba generate 
+
+hay que crear el modulo dejar abierto
+y despues crear la macro
+
+'arroja error esta linea la salta
+Sub OnErrorResumeNextDemo()
+
+  On Error Resume Next
+  MsgBox 5 / 0
+  MsgBox "Done"
+  
+End Sub
+
+'no se puede dividir un numero por 0
+ MsgBox 5 / 0
+ 
+'selecciona todas las columnas que tienen una nota
+Dim myRng As Range
+
+Set myRng = _
+Range("A1:A10").SpecialCells(xlCellTypeComments)
+
+'tambien se puede escribir todo junto
+Set myRng = Range("A1:A10").SpecialCells(xlCellTypeComments)
+
+myRng.Select
+
+'selecciona el ultimo rango 
+Set myRng = Range("A1:A10").SpecialCells(xlCellTypeLastCell)
+
+Sub activate()
+
+Dim myRng As Range
+Set myRng = Range("A1:k50").SpecialCells(xlCellTypeLastCell)
+
+MsgBox myRng.Address
+
+myRng.Select
+End Sub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
