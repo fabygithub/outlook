@@ -72,7 +72,37 @@ MsgBox myRng.Address
 myRng.Select
 End Sub
 
+ 'Is Nothing 
+ significa que no hay nada
  
+comprueba si un objeto ha sido asignado a una variable de objeto.
+
+Set range variable using VBA in Excel
+
+https://www.excel-avanzado.com/ejemplos-de-with-en-vba
+
+el with permite escribir de otra forma por ejemplo 
+
+Sub WithVBA()
+With Cells(1, 1)
+.Value = "Hola Excel-Avanzado.com"
+.Font.Bold = True
+End With
+End Sub
+
+La siguiente macro sería equivalente al código anteriormente mostrado:
+
+Sub WithenVBA()
+Cells(1, 1).Value = "Hola Excel-Avanzado.com"
+Cells(1, 1).Font.Bold = True
+end sub
+
+
+
+
+
+
+
 
 
 
