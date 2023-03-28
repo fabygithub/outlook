@@ -16,8 +16,13 @@ si no envio y apreto x aparece
  End If
 
 
-enviar un archivo en el correo
+enviar un archivo de excel activo al correo
 .Attachments.Add ActiveWorkbook.FullName
+
+enviar un correo con un archivo adjunto
+.Attachments.Add "C:\Users\USUARIO\Desktop\practica\ejercicio\pruebas\envio.txt"
+
+Create an Email with Attachment using VBA and Outlook
 
 
 
