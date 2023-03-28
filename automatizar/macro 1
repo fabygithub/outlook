@@ -1,0 +1,23 @@
+VBA Send Emails from Excel Through Outlook
+https://www.automateexcel.com/vba/send-emails-outlook/
+
+se esperaba fin de la instruccion
+Set mItem = appOutlook.CreateItem(0)
+
+https://stackoverflow.com/questions/14985261/how-to-send-email-to-multiple-recipients-with-addresses-stored-in-excel
+
+enviar un correo a varias personas
+strTo = "burquieta@esval.cl;naguirre@esval.cl"
+
+si no envio y apreto x aparece
+
+ Else
+      MsgBox "Email creation failed!"
+ End If
+
+
+enviar un archivo en el correo
+.Attachments.Add ActiveWorkbook.FullName
+
+
+
