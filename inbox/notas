@@ -9,10 +9,35 @@ mensaje : contenido del correo
 
 cc : nada
 
-
-
-
 se pueden copiar en el excel y se agregar las columans automatico
+
+2. Turn off the Reading Pane by clicking View > Reading Pane > Off. See screenshot:
+
+diseño 
+panel de lectura
+
+mostrar
+todos los campos de correo
+
+outlook not copying data in excel
+
+para que agarre el para 
+tendria que sacar algunas columnas
+
+de
+para
+asunto
+
+recibido
+de 
+para
+asunto
+
+//filtrar los correos por fecha
+por de : fecha
+
+
+
 
 
 
